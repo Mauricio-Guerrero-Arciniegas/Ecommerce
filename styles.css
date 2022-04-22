@@ -74,7 +74,7 @@ header {
     transition: 0.3s;
 }
 
-.cart-active {
+.cart.active {
     right: 0;
 }
 
