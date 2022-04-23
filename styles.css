@@ -21,6 +21,7 @@ img {
 }
 
 body {
+    background-color: rgb(224, 224, 224);
     color: var(--text-color);
 }
 
@@ -55,6 +56,11 @@ header {
     font-size: 1.1rem;
     color: var(--text-color);
     font-weight: 400;
+}
+
+.nav a {
+    
+    color: #fd4646;
 }
 
 #cart-icon {
@@ -183,7 +189,7 @@ header {
 .shop-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, auto));
-    gap: 1.5rem;
+    gap: 4rem;
 }
 
 .product-box {
