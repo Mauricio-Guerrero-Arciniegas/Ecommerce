@@ -7,15 +7,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
     
-    <header>
+    <header id="Home">
         <div class="nav container">
             
-            <a href="#" class="logo">Specialized</a>
-            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+            <a href="https://www.specialized.com/co/es/shop/bikes/c/bikes" class="logo">Specialized</a>
+            <div class="li">
+
+                <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#Shop Products">Shop Products</a></li>
+                        <li><a href="#About">About</a></li>
+                    </ul>
+            </div>    
+
+                <i class="bx bx-shopping-bag" id="cart-icon">Cart</i>
             <!-- Cart -->
             <div class="cart">
                 <h2 class="cart-title">Your Cart</h2>
@@ -36,76 +48,88 @@
             </div>
         </div>
     </header>
-    <section class="shop container">
-        <h2 class="section-title">Shop Products</h2>
-        <div class="shop-content">
-            <div class="product-box">
-                <img src="img/product1.jpg" alt="" class="product-img">
-                <h2 class="product-title">LLANTA</h2>
-                <span class="price">$25</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/product2.jpg" alt="" class="product-img">
-                <h2 class="product-title">SILLIN</h2>
-                <span class="price">$100</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/product3.jpg" alt="" class="product-img">
-                <h2 class="product-title">CASCO</h2>
-                <span class="price">$45</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/product4.jpg" alt="" class="product-img">
-                <h2 class="product-title">ZAPATILLAS</h2>
-                <span class="price">$24.04</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/product5.jpg" alt="" class="product-img">
-                <h2 class="product-title">TARMAC S-WORKS</h2>
-                <span class="price">$50</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/product6.jpg" alt="" class="product-img">
-                <h2 class="product-title">TURBO LEVO</h2>
-                <span class="price">$50</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/product7.jpg" alt="" class="product-img">
-                <h2 class="product-title">STUMPJUMPER-EVO</h2>
-                <span class="price">$70</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/product8.jpg" alt="" class="product-img">
-                <h2 class="product-title">GUANTES</h2>
-                <span class="price">$45</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
+
+    <section id="hero">
+        <div class="containerhero">
+            <div class="info"></div>
+            
+            <h2>Dia de la Tierra</h2>
+            <p>Congela tus Llaves</p>
+            <button onclick="window.location.href='https://www.specialized.com/co/es/earthday'">Aprende Más</button>
+            
         </div>
+        
+    </section>
+
+    <section class="shop container" id="Shop Products">
+
+            <h2 class="section-title">Shop Products</h2>
+            <div class="shop-content">
+                <div class="product-box">
+                    <img src="img/product1.jpg" alt="" class="product-img">
+                    <h2 class="product-title"> BUTCHER TIRE</h2>
+                    <span class="price">$25</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="img/product2.jpg" alt="" class="product-img">
+                    <h2 class="product-title">SEATPOST</h2>
+                    <span class="price">$30</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="img/product3.jpg" alt="" class="product-img">
+                    <h2 class="product-title">CAMBER HELMET</h2>
+                    <span class="price">$60</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="img/product4.jpg" alt="" class="product-img">
+                    <h2 class="product-title">ZAPATILLAS S-WORKS</h2>
+                    <span class="price">$75.5</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="img/product5.jpg" alt="" class="product-img">
+                    <h2 class="product-title">TARMAC S-WORKS</h2>
+                    <span class="price">$9000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="img/product6.jpg" alt="" class="product-img">
+                    <h2 class="product-title">TURBO LEVO</h2>
+                    <span class="price">$8000</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="img/product7.jpg" alt="" class="product-img">
+                    <h2 class="product-title">STUMPJUMPER-EVO</h2>
+                    <span class="price">$3500</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="img/product8.jpg" alt="" class="product-img">
+                    <h2 class="product-title">KIDS GLOVES</h2>
+                    <span class="price">$15</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+        
     </section>
 
     <section class="">
         
-        <footer class="text-center text-white" style="background-color: #4d4a4b;">
-         
-          <div class="container p-4 pb-0">
-           
-            <section class="">
-              <p class="d-flex justify-content-center align-items-center">
-                <span class="me-3">Registrese</span>
+        <footer class="text-center text-white" style="background-color: #4d4a4b;" id="About">
+            <div class="container p-4 pb-0">
+                <section class="">
+                <p class="d-flex justify-content-center align-items-center">
+                    <span class="me-3">Registrese</span>
                 <button type="button" class="btn btn-outline-light btn-rounded">
                   Sign up!
                 </button>
               </p>
             </section>
-         
-          </div>
+            </div>
           
       
           
