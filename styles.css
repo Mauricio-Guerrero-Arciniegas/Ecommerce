@@ -27,9 +27,10 @@ img {
     background: linear-gradient(rgba(0, 0, 0, 0.363), rgba(0, 0, 0, 0.37)), url(./img/hero2.jpg) no-repeat center / cover;
 }
 
-.li a{
+.nav a {
     display:inline;
     flex-direction: row;
+    color: blue;
 }
 
 .containerhero {
@@ -69,6 +70,8 @@ body {
      max-width: 1068px;
      margin: auto;
      width: 100%;
+     color: rgb(145, 68, 79);
+
 }
 
 section {
@@ -110,6 +113,11 @@ header {
 #cart-icon {
     font-size: 1.8rem;
     cursor: pointer;
+}
+
+.footer img {
+    width: 10rem;
+    
 }
 
 .cart {
@@ -257,7 +265,7 @@ header {
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 0.5rem;
-    color: red;
+    color: rgb(165, 39, 39);
 }
 
 .price {
